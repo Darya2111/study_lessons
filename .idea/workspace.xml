@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58116869-b973-483e-b429-33bfe65f3264" name="Changes" comment="added javaClasses">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/registrationFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/theory/beforeEach/All" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/theory/beforeEach/rundomUtils" afterDir="false" />
+    <list default="true" id="58116869-b973-483e-b429-33bfe65f3264" name="Changes" comment="added some theory and registrationFormTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/simpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/webTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -41,10 +43,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/Даша/IdeaProjects/demoqa-tests-12"
+    "last_opened_file_path": "C:/Users/Даша/IdeaProjects/qa_guru_8_dz"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+      <recent name="domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.webTest.yaSearchComplexTest">
     <configuration name="registrationFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -68,8 +76,32 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="webTest.yaSearchComplexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.webTest.yaSearchComplexTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.webTest.yaSearchComplexTest" />
         <item itemvalue="Gradle.registrationFormTest" />
       </list>
     </recent_temporary>
@@ -97,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668758209198</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added some theory and registrationFormTest">
+      <created>1668759080612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668759080612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added build.gradle" />
     <MESSAGE value="added javaClasses" />
-    <option name="LAST_COMMIT_MESSAGE" value="added javaClasses" />
+    <MESSAGE value="added some theory and registrationFormTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some theory and registrationFormTest" />
   </component>
 </project>
