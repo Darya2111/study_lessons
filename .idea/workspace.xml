@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58116869-b973-483e-b429-33bfe65f3264" name="Changes" comment="added webTest, simpleTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/parametersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/selenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/webSteps.java" afterDir="false" />
+    <list default="true" id="58116869-b973-483e-b429-33bfe65f3264" name="Changes" comment="added tests for allure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/selenideDownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/csv/teachers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pdf/junit-user-guide-5.8.2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/xls/sample-xlsx-file.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Study_lessons" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Study_lessons" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Study_lessons" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,17 +76,62 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/Даша/IdeaProjects/qa_guru_7_allure_report"
+    "last_opened_file_path": "C:/Users/Даша/IdeaProjects/RIGHT/Study_lessons/src/test/resources"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Даша\IdeaProjects\RIGHT\Study_lessons\src\test\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests" />
       <recent name="domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.webTest.yaSearchComplexTest">
-    <configuration name="registrationFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.selenideDownloadTest.xlsParsingTest">
+    <configuration name="Study_lessons [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Study_lessons [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="selenideDownloadTest.downloadTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -66,7 +144,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.registrationFormTest&quot;" />
+            <option value="&quot;tests.selenideDownloadTest.downloadTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -76,7 +154,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="webTest.yaSearchComplexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="selenideDownloadTest.pdfParsingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +167,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.webTest.yaSearchComplexTest&quot;" />
+            <option value="&quot;tests.selenideDownloadTest.pdfParsingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="selenideDownloadTest.xlsParsingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.selenideDownloadTest.xlsParsingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -101,8 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.webTest.yaSearchComplexTest" />
-        <item itemvalue="Gradle.registrationFormTest" />
+        <item itemvalue="Gradle.selenideDownloadTest.xlsParsingTest" />
+        <item itemvalue="Gradle.selenideDownloadTest.pdfParsingTest" />
+        <item itemvalue="Gradle.selenideDownloadTest.downloadTest" />
+        <item itemvalue="Gradle.Study_lessons [allureServe]" />
+        <item itemvalue="Gradle.Study_lessons [allureReport]" />
       </list>
     </recent_temporary>
   </component>
@@ -143,8 +247,18 @@
       <option name="project" value="LOCAL" />
       <updated>1668761521755</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added tests for allure">
+      <created>1668764858956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668764858956</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -162,6 +276,7 @@
     <MESSAGE value="added javaClasses" />
     <MESSAGE value="added some theory and registrationFormTest" />
     <MESSAGE value="added webTest, simpleTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="added webTest, simpleTest" />
+    <MESSAGE value="added tests for allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests for allure" />
   </component>
 </project>
