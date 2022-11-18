@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58116869-b973-483e-b429-33bfe65f3264" name="Changes" comment="added some theory and registrationFormTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/simpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/webTest.java" afterDir="false" />
+    <list default="true" id="58116869-b973-483e-b429-33bfe65f3264" name="Changes" comment="added webTest, simpleTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/parametersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/selenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/webSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/Даша/IdeaProjects/qa_guru_8_dz"
+    "last_opened_file_path": "C:/Users/Даша/IdeaProjects/qa_guru_7_allure_report"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668759080612</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added webTest, simpleTest">
+      <created>1668761521755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668761521755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +161,7 @@
     <MESSAGE value="added build.gradle" />
     <MESSAGE value="added javaClasses" />
     <MESSAGE value="added some theory and registrationFormTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some theory and registrationFormTest" />
+    <MESSAGE value="added webTest, simpleTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="added webTest, simpleTest" />
   </component>
 </project>
